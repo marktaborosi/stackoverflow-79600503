@@ -1,0 +1,25 @@
+{
+    "name": "marktaborosi/stackoverflow-79600503",
+    "description": "Reacting to Stack Overflow question #79600503: Optimizing and fixing DomPDF generation.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marktaborosi\\Stackoverflow79600503\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Taborosi",
+            "email": "mark.taborosi@gmail.com"
+        }
+    ],
+    "require": {
+        "spipu/html2pdf": "^5.3"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
